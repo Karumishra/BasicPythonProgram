@@ -1,0 +1,8 @@
+a=open('papa.txt','w')
+a.write('Bharat mata ki jai\n')
+a.write('Mitro mere sabha me ane ke liye ap sabka mai abhinanadan karta hu \n')
+a.close()
+b=open('papa.txt','r')
+text = b.read()
+print(text)
+b.close()
